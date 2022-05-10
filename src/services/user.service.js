@@ -2,8 +2,9 @@ import api from "./api";
 
 class UserService {
   getPublicContent() {
-    return api.get("/test/all");
-  }
+                       //conteudo do app
+                       return api.get("/content");
+                     }
 }
 
 export default new UserService();
